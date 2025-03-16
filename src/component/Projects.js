@@ -17,7 +17,7 @@ function Projects() {
           },
           {
             image:Guess,
-            description:'Guess the Number Game - React.js <br /> Random Number Generation: The app generates a random number between 1 and 10 when the game starts.User Input: Users can input their guesses.',
+            description:'Guess the Number Game - React.js Random Number Generation: The app generates a random number between 1 and 10 when the game starts.User Input: Users can input their guesses.',
             link:'https://jasim2003ahamed.github.io/Reactjs/'
           },
           {
