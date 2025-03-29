@@ -12,8 +12,8 @@ function Projects() {
         projects : [
           {
             image:TodoImg,
-            description:'Hello',
-            link:''
+            description:'Developed a responsive to-do list web application using ReactJS for front-end functionality and Tailwind CSS for styling',
+            link:'https://jasim2003ahamed.github.io/todo-list/'
           },
           {
             image:Guess,
