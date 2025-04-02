@@ -3,12 +3,11 @@ import resume from '../assests/resume.jpg'
 
 
 
-
 function Resume() {
 
 
       const config = {
-        link:'jasimahamed.pdf'
+        link:'https://drive.google.com/file/d/1qqwrsTL2Cm8bF1nOuhVRf9PAr8eMHtpx/view?usp=drivesdk'
       }
 
 

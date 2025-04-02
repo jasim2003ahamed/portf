@@ -13,12 +13,14 @@ function Projects() {
           {
             image:TodoImg,
             description:'Developed a responsive to-do list web application using ReactJS for front-end functionality and Tailwind CSS for styling',
-            link:'https://jasim2003ahamed.github.io/todo-list/'
+            link:'https://jasim2003ahamed.github.io/todo-list/',
+            code:'https://github.com/jasim2003ahamed/todo-list'
           },
           {
             image:Guess,
             description:'Guess the Number Game - React.js Random Number Generation: The app generates a random number between 1 and 10 when the game starts.User Input: Users can input their guesses.',
-            link:'https://jasim2003ahamed.github.io/Reactjs/'
+            link:'https://jasim2003ahamed.github.io/Reactjs/',
+            code:'https://github.com/jasim2003ahamed/Reactjs'
           },
           {
             image:EcomImg,
@@ -47,11 +49,19 @@ function Projects() {
                     <p className='text-center text-white py-5'>{project.description}</p>
                   </div>
 
-                  <div className='py-5 flex justify-center'>
-                    <a target='_blank' href={project.link}>
-                      <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
-                    </a>
+                <div className='flex justify-center gap-5'>
+                      <div className='py-5  flex justify-center'>
+                        <a target='_blank' href={project.link} >
+                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
+                        </a>
+                      </div>
+                      <div className='py-5 flex justify-center'>
+                        <a target='_blank' href={project.code} >
+                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
+                        </a>
+                      </div>
                   </div>
+
                 </div>
               ))}
             </div>
