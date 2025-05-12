@@ -22,7 +22,7 @@ function Hero() {
 
             <div className='flex py-4'>
               <a href='#' className='pr-3 text-zinc-600 hover:text-black'><FaFacebookF size={40}/></a>
-              <a target='_blank' href='https://github.com/' className='pr-3 text-zinc-600 hover:text-black'>< FaGithub  size={40}/></a>
+              <a target='_blank' href='https://github.com/jasim2003ahamed' className='pr-3 text-zinc-600 hover:text-black'>< FaGithub  size={40}/></a>
               <a target='_blank' href='https://www.linkedin.com/in/ahamed-z-918996260' className='pr-3 text-zinc-600 hover:text-black'><FaLinkedinIn  size={40}/></a>
               <a href='' className='pr-3 text-zinc-600 hover:text-black'><FaInstagram  size={40}/></a>
             </div>
