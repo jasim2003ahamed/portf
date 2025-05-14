@@ -2,7 +2,7 @@ import React from 'react'
 import TodoImg from '../assests/todo.jpeg'
 import Guess from '../assests/guess.jpg'
 import EcomImg from '../assests/ecom.jpg'
-
+import BlogImg from '../assests/blog.jpg'
 
 
 
@@ -10,6 +10,18 @@ function Projects() {
 
       const config = {
         projects : [
+          {
+            image:BlogImg,
+            description:'A Blog App using the MERN stack (MongoDB, Express.js, React.js, Node.js) is a full-stack web application where users can create, read, update, and delete blog posts.',
+            link:'https://blog-app-frontend-nmtc.onrender.com/',
+            code:'https://github.com/jasim2003ahamed/Blog-app'
+          },
+          {
+            image:EcomImg,
+            description:'A simple and responsive eCommerce web application built using React.js and Tailwind CSS. Users can browse products (like phones and laptops), add them to a shopping cart',
+            link:'https://jasim2003ahamed.github.io/E-comm/',
+            code:'https://github.com/jasim2003ahamed/E-comm'
+          },
           {
             image:TodoImg,
             description:'Developed a responsive to-do list web application using ReactJS for front-end functionality and Tailwind CSS for styling',
@@ -22,12 +34,6 @@ function Projects() {
             link:'https://jasim2003ahamed.github.io/Reactjs/',
             code:'https://github.com/jasim2003ahamed/Reactjs'
           },
-          {
-            image:EcomImg,
-            description:'A simple and responsive eCommerce web application built using React.js and Tailwind CSS. Users can browse products (like phones and laptops), add them to a shopping cart',
-            link:'https://jasim2003ahamed.github.io/E-comm/',
-            code:'https://github.com/jasim2003ahamed/E-comm'
-          },
         ]
       }
 
@@ -37,7 +43,7 @@ function Projects() {
     <section className='py-16 border-b-2  border-collapse w-full ' id='Projects'>
         <div className='flex flex-col md:px-16 px-8 '>
             <h1 className='text-4xl font-medium  mb-10 '>Projects</h1>
-            <p className='text-zinc-600 font-semibold'>These are some of my best Projects, I have built these with React and MERN, <span className='bg-four'>Check them Out.</span></p>
+            <p className='text-zinc-600 font-semibold'>These are some of my best Projects, I have built these with React and MERN, <a target='_blank' href='https://github.com/jasim2003ahamed' className='bg-four'>Check them Out.</a></p>
         </div>
 
         <div className='w-full px-5  py-12   '>
