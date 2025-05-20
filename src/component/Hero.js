@@ -1,17 +1,23 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Coding from '../assests/coding.png'
 import { FaFacebookF, FaGithub ,FaLinkedinIn,FaInstagram } from "react-icons/fa";
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Hero() {
+
+  useEffect(() => {
+      AOS.init({duration: 1000})
+      }, [])
 
         const config = {
           subtitle:"Frontend Developer"
         }
 
   return (
-    <section className='flex flex-col md:flex-row justify-center px-5 py-28 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
+    <section  className='flex flex-col md:flex-row justify-center px-5 py-28 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
 
-      <div className='md:w-1/2 '>
+      <div className='md:w-1/2' data-aos='fadeIn'>
             <h1  className='py-8 text-5xl justify-center font-semibold bg-secondary'>Hi, <br/>Im Jasim Ahamed
                 <p className='text-2xl text-zinc-600'>{config.subtitle}</p>
             </h1>
@@ -32,7 +38,7 @@ function Hero() {
             
       </div>
 
-      <img src={Coding} className='hidden md:block md:w-1/3'></img>
+      <img data-aos='fadeIn' src={Coding} className='hidden md:block md:w-1/3'></img>
     </section>
   )
 }

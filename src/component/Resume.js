@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import resume from '../assests/resume.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 function Resume() {
+
+    useEffect(() => {
+    AOS.init({duration: 1000})
+    }, [])
 
 
       const config = {
@@ -12,7 +18,7 @@ function Resume() {
 
 
   return ( 
-    <section className='flex flex-col md:flex-row px-8 py-16 md:justify-between justify-center border-2  shadow-sm  w-full' id='Resume'>
+    <section data-aos='fade-right' className='flex flex-col md:flex-row px-8 py-16 md:justify-between justify-center border-2  shadow-sm  w-full' id='Resume'>
           <div className='py-3 w-1/2 md:w-1/3 flex justify-end '>
               
               <img src={resume}  className='flex w-[300px]' ></img>

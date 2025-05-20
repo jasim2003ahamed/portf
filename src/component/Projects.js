@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import TodoImg from '../assests/todo.jpeg'
 import Guess from '../assests/guess.jpg'
 import EcomImg from '../assests/ecom.jpg'
 import BlogImg from '../assests/blog.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 
 
 function Projects() {
+
+  useEffect(() => {
+  AOS.init({duration: 1000})
+}, [])
 
       const config = {
         projects : [
@@ -46,7 +52,7 @@ function Projects() {
             <p className='text-zinc-600 font-semibold'>These are some of my best Projects, I have built these with React and MERN, <a target='_blank' href='https://github.com/jasim2003ahamed' className='bg-four'>Check them Out.</a></p>
         </div>
 
-        <div className='w-full px-5  py-12   '>
+        <div data-aos='fade-left' className='w-full px-5  py-12   '>
             <div className='gap-7 flex flex-col md:flex-row  px-10'>
 
               {config.projects.map((project) => (
