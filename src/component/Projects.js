@@ -122,17 +122,17 @@ function Projects() {
                 <div  className='relative shadow-lg'data-aos='fade-left' >
                     <img src={TodoImg} className='h-[200px] w-[500px] rounded-md ' />
                   <div className='project-desc' >
-                    <p className='text-center text-white py-5'>A Blog App using the MERN stack (MongoDB, Express.js, React.js, Node.js) is a full-stack web application where users can create, read, update, and delete blog posts.</p>
+                    <p className='text-center text-white py-5'>Developed a responsive to-do list web application using ReactJS for front-end functionality and Tailwind CSS for styling.</p>
                   </div>
 
                 <div className='flex justify-center gap-5'>
                       <div className='py-5  flex justify-center'>
-                        <a target='_blank' href='https://jasim2003ahamed.github.io/Reactjs/' >
+                        <a target='_blank' href='https://jasim2003ahamed.github.io/todo-list/' >
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
                         </a>
                       </div>
                       <div className='py-5 flex justify-center'>
-                        <a target='_blank' href='https://github.com/jasim2003ahamed/Reactjs' >
+                        <a target='_blank' href='https://github.com/jasim2003ahamed/todo-list' >
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
                         </a>
                       </div>
