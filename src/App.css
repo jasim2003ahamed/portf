@@ -25,11 +25,8 @@ header ul li{
 }
 
 .bg-foot{
-    
-        /* background: linear-gradient(60deg, #ec5454,#2b3494); */
         background-size: 400% 400%;
         background: black;
-        
 }
 
 @keyframes gradient {
@@ -42,14 +39,12 @@ header ul li{
 }
 
 
-
 .bg-secondary{
     color: #f05423;
 }
 
 
 .bg-third{
-  
     background-color: #ec5454;
 }
 

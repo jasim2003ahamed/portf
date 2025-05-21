@@ -4,12 +4,12 @@ import { IoMdArrowDropupCircle } from "react-icons/io";
 
 
 function Contact() {
-  
+
   return (
          <section  className='py-20 md:py-6 bg-foot ' id='Contact' >
 
                     <div className='flex justify-center py-5'>
-                      <p className='text-white text-4xl font-semibold'>Portfolio</p>
+                      <p className='text-white text-4xl font-semibold'>P<span className='bg-secondary'>o</span>rtf<span className='bg-secondary'>o</span>li<span className='bg-secondary'>o</span></p>
                     </div>
 
                     <div className='flex justify-center py-5'>
