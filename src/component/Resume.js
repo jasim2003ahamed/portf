@@ -18,12 +18,12 @@ function Resume() {
 
 
   return ( 
-    <section data-aos='fade-right' className='flex flex-col md:flex-row px-8 py-16 md:justify-between justify-center border-2  shadow-sm  w-full' id='Resume'>
-          <div className='py-3 w-1/2 md:w-1/3 flex justify-end '>
-              
+    <section className='flex flex-col md:flex-row px-8 py-16 md:justify-between justify-center border-2  shadow-sm  w-full' id='Resume'>
+          <div data-aos='fade-right' className='py-3 w-1/2 md:w-1/3 flex justify-end '>
               <img src={resume}  className='flex w-[300px]' ></img>
           </div>
-          <div className=' flex  md:py-14'>
+
+            <div className=' flex  md:py-14'> 
               <div className='flex flex-col '>
                   <h1 className='hidden md:block text-4xl font-medium mb-10'>Resume</h1>
                    <p className='bg-four font-semibold pb-5'>You can view my resume</p>
@@ -45,8 +45,8 @@ function Resume() {
                 <p className='font-thin tracking-wide'>Email</p> 
                 <a className='font-semibold' >jasim2003ahamed@gmail.com</a>
             </div>
-
           </div>
+  
 
           
 </section>

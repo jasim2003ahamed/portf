@@ -6,18 +6,18 @@ import 'aos/dist/aos.css'
 
 function Hero() {
 
-  useEffect(() => {
-      AOS.init({duration: 1000})
-      }, [])
+   useEffect(() => {
+    AOS.init({duration: 1000})
+  }, [])
 
         const config = {
           subtitle:"Frontend Developer"
         }
 
   return (
-    <section  className='flex flex-col md:flex-row justify-center px-5 py-28 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
+    <section data-aos='fade-left'  className='flex flex-col md:flex-row justify-center px-5 py-28 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
 
-      <div className='md:w-1/2' data-aos='fadeIn'>
+      <div className='md:w-1/2'>
             <h1  className='py-8 text-5xl justify-center font-semibold bg-secondary'>Hi, <br/>Im Jasim Ahamed
                 <p className='text-2xl text-zinc-600'>{config.subtitle}</p>
             </h1>

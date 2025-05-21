@@ -6,7 +6,7 @@ function Header() {
     const [toggleMenu,setToogkeMenu] = useState(false)
 
   return (
-    <div className='bg-header'>
+    <div className='bg-header '>
         <header className='flex justify-between  w-full px-5 py-5 md:shadow-md shadow-md ' id='Header' >
             <a href='#' className='font-bold text-white text-3xl ' >P<span className='bg-secondary'>o</span>rtf<span className='bg-secondary'>o</span>li<span className='bg-secondary'>o</span></a>
           <nav className='hidden md:block  '>
