@@ -58,9 +58,9 @@ const Education = () => {
   }, []);
 
   return (
-    <section id="education" className="bg-gradient-to-b from-white to-slate-100 py-20 px-4">
+    <section id="Education" className="bg-gradient-to-b from-white to-slate-100 py-20 px-4">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Education</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-800 mb-16">Educations</h2>
         <div className="relative">
           {/* Central vertical line */}
           <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 h-full border-l-4 border-indigo-500"></div>

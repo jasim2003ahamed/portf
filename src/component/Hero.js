@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react'
 import Coding from '../assests/coding.png'
-import { FaFacebookF, FaGithub ,FaLinkedinIn,FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
+import { FiLinkedin } from "react-icons/fi";
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -11,7 +13,7 @@ function Hero() {
   }, [])
 
         const config = {
-          subtitle:"Frontend Developer"
+          subtitle:"Software Developer"
         }
 
   return (
@@ -23,9 +25,9 @@ function Hero() {
             </h1>
 
             <div className='flex py-4'>
-              <a href='#' className='pr-3 text-zinc-600 hover:text-black'><FaFacebookF size={40}/></a>
-              <a target='_blank' href='https://github.com/jasim2003ahamed' className='pr-3 text-zinc-600 hover:text-black'>< FaGithub  size={40}/></a>
-              <a target='_blank' href='https://www.linkedin.com/in/ahamed-z-918996260' className='pr-3 text-zinc-600 hover:text-black'><FaLinkedinIn  size={40}/></a>
+              <a target='_blank' href="https://wa.me/917639294694?text=Hi%2C%20I%20want%20to%20connect%20with%20you!" className='pr-3 text-zinc-600 hover:text-black'><FaWhatsapp size={40}/></a>
+              <a target='_blank' href='https://github.com/jasim2003ahamed' className='pr-3 text-zinc-600 hover:text-black'>< FiGithub  size={40}/></a>
+              <a target='_blank' href='https://www.linkedin.com/in/ahamed-z-918996260' className='pr-3 text-zinc-600 hover:text-black'><FiLinkedin size={40}/></a>
               <a href='' className='pr-3 text-zinc-600 hover:text-black'><FaInstagram  size={40}/></a>
             </div>
 
