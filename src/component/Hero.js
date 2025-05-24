@@ -17,7 +17,7 @@ function Hero() {
         }
 
   return (
-    <section data-aos='fade-left'  className='flex flex-col md:flex-row justify-center px-5 py-28 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
+    <section data-aos='fade-left'  className='flex flex-col md:flex-row justify-center px-5 py-36 md:py-32 border-b-2 shadow-sm border-collapse w-full' id='Home'>
 
       <div className='md:w-1/2'>
             <h1  className='py-8 text-5xl justify-center font-semibold bg-secondary'>Hi, <br/>Im Jasim Ahamed

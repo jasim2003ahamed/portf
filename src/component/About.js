@@ -27,7 +27,7 @@ function About() {
         </div>
         <div data-aos='fade-right' className='md:w-1/2 md:py-4' >
             <div className='flex flex-col '>
-                <h1 className='text-4xl font-medium mb-10 '>About Me</h1>
+                <h1 className='text-4xl font-medium mb-10 '>About <span className="text-orange-500">Me</span></h1>
                 <p className='text-zinc-600 font-semibold pb-5 '>{config.line1}</p>
                 <p className='text-zinc-600  font-semibold pb-5 '>{config.line2}</p>
                 <p className='text-zinc-600  font-semibold pb-5 '>{config.line3}</p>

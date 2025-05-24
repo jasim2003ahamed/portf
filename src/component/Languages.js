@@ -22,7 +22,7 @@ const technologies = [
 const Languages = () => {
   return (
     <section className="bg-white py-12 px-4" id="tools">
-      <h2 className="text-3xl font-bold text-center mb-10">Tools & Technologies</h2>
+      <h2 className="text-3xl font-bold text-center mb-10">Skills</h2>
       <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 max-w-6xl mx-auto">
         {technologies.map((tech, index) => (
           <div

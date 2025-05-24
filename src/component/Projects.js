@@ -47,12 +47,12 @@ function Projects() {
   return (
     <section className='py-16 border-b-2  border-collapse w-full ' id='Projects'>
         <div className='flex flex-col md:px-16 px-8 '>
-            <h1 className='text-4xl font-medium  mb-10 '>Projects</h1>
+            <h1 className='text-3xl font-bold text-center mb-10'>Projects</h1>
             <p className='text-zinc-600 font-semibold'>These are some of my best Projects, I have built these with React and MERN, <a target='_blank' href='https://github.com/jasim2003ahamed' className='bg-four'>Check them Out.</a></p>
         </div>
 
-        <div className='w-full px-5  py-12   '>
-            <div  className='gap-7 flex flex-col md:flex-row  px-10'>
+        <div className='w-auto px-5  py-12'>
+            <div className='grid grid-col sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto'>
 
               {/* {config.projects.map((project) => (
                 <div className='relative shadow-lg '>
