@@ -32,7 +32,7 @@ function About() {
                 <p className='text-zinc-600  font-semibold pb-5 '>{config.line2}</p>
                 <p className='text-zinc-600  font-semibold pb-5 '>{config.line3}</p>
 
-                <button className='border-2 rounded-xl w-32 h-10 bg-primary text-white '>More about</button>
+                {/* <button className='border-2 rounded-xl w-32 h-10 bg-primary text-white '>More about</button> */}
          </div>
         </div>
 
