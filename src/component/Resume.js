@@ -13,7 +13,7 @@ function Resume() {
 
 
       const config = {
-        link:'https://drive.google.com/file/d/1qqwrsTL2Cm8bF1nOuhVRf9PAr8eMHtpx/view?usp=drivesdk'
+        link:'https://drive.google.com/file/d/1CJrAY_yzozG44_QJGR192C29rFnzhIKw/view?usp=sharing'
       }
 
 
@@ -29,7 +29,7 @@ function Resume() {
                    <p className='bg-four font-semibold pb-5'>You can view my resume</p>
 
                    <a target='_blank' href={config.link} >
-                     <button className='border-2 rounded-full w-28 h-10 bg-primary text-white '>Download</button>
+                     <button className='border-2 rounded-full w-28 h-10 bg-primary text-white '>View</button>
                    </a>
 
               </div>

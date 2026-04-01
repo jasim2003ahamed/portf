@@ -14,16 +14,16 @@ function About() {
   }, [])
 
     const config = {
-      line1:'Hi, My name is Jasim Ahamed, I am Frontend Developer. I built beautiful Websites with React.js and Tailwind CSS.',
-      line2:'I am proficient in Frontend skills like React.js, Redux, Redux Tool Kit, Axios, Tailwind CSS, Css3 and many more.',
-      line3:'In backend I know Node.js, Express.js, MongoDB, Mongoose.'
+      line1:'Hi, My name is Jasim Ahamed, I am a Full-Stack MERN Developer with 1+ year of practical experience.',
+      line2:'I specialize in building real-time, scalable web applications using React, Node.js, Express.js, MongoDB, and PostgreSQL.',
+      line3:'I have strong problem-solving skills with a focus on delivering high-performance APIs, seamless authentication, and an excellent user experience.'
     }
 
 
   return (
     <section  className='flex flex-col md:flex-row px-8 py-16 md:justify-between  border-2 shadow-sm border-collapse w-full ' id='About'>
         <div data-aos='fade-left' className= 'flex justify-center py-5 w-1/2 md:w-1/3'>
-            <img src={Abot} className='rounded-lg' ></img>
+            <img src={Abot} className='rounded-lg' alt="About" ></img>
         </div>
         <div data-aos='fade-right' className='md:w-1/2 md:py-4' >
             <div className='flex flex-col '>

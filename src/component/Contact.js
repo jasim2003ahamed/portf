@@ -7,6 +7,8 @@ import { IoMdArrowDropupCircle } from "react-icons/io";
 
 function Contact() {
 
+  const date = new Date().getFullYear();
+
   return (
          <section  className='py-20 md:py-10 bg-foot ' id='Contact' >
 
@@ -16,14 +18,14 @@ function Contact() {
 
                     <div className='flex justify-center py-5'>
                       <a target='_blank' href="https://wa.me/917639294694?text=Hi%2C%20I%20want%20to%20connect%20with%20you!" className='pr-4 text-slate-300 hover:text-black'><FaWhatsapp size={40}/></a>
-                      <a target='_blank' href='https://github.com/' className='pr-4 text-slate-300 hover:text-black'>< FiGithub  size={40}/></a>
+                      <a target='_blank' href='https://github.com/jasim2003ahamed' className='pr-4 text-slate-300 hover:text-black'>< FiGithub  size={40}/></a>
                       <a target='_blank' href='https://www.linkedin.com/in/ahamed-z-918996260' className='pr-4 text-slate-300 hover:text-black'><FiLinkedin  size={40}/></a>
                       <a href='' className='pr-4 text-slate-300 hover:text-black'><FaInstagram  size={40}/></a>
                     </div>
 
 
                 <div className='flex justify-center py-5 '>
-                  <p className='text-slate-300'>&copy; 2025 All Rights Reserved. Made By <br /><p className='flex justify-center'>Jasim Ahamed. </p> </p> 
+                  <p className='text-slate-300'>&copy; {date} All Rights Reserved. Made By <br /><p className='flex justify-center'>Jasim Ahamed. </p> </p> 
                 </div>
 
 

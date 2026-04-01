@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
 import TodoImg from '../assests/todo.jpeg'
-import Guess from '../assests/guess.jpg'
 import EcomImg from '../assests/ecom.jpg'
 import BlogImg from '../assests/blog.jpg'
 import AOS from 'aos'
@@ -78,19 +77,40 @@ function Projects() {
               ))} */}
 
               <div  className='relative shadow-lg'data-aos='fade-left' >
-                    <img src={BlogImg} className='h-[200px] w-[500px] rounded-md ' />
+                    <img src={BlogImg} className='h-[200px] w-[500px] rounded-md ' alt='Blog Project' />
                   <div className='project-desc' >
-                    <p className='text-center text-white py-5'>A Blog App using the MERN stack (MongoDB, Express.js, React.js, Node.js) is a full-stack web application where users can create, read, update, and delete blog posts.</p>
+                    <p className='text-center text-white py-5 px-3'><b>Blog Application (MERN Stack)</b><br/>Developed a MERN stack blog platform with authentication and protected routes. Enabled public blog viewing while restricting creation to authenticated users. Implemented conditional rendering and responsive UI using React and Tailwind CSS.</p>
                   </div>
 
                 <div className='flex justify-center gap-5'>
                       <div className='py-5  flex justify-center'>
-                        <a target='_blank' href='https://blog-app-frontend-nmtc.onrender.com/'>
+                        <a target='_blank' rel='noreferrer' href='https://blog-app-frontend-nmtc.onrender.com/'>
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
                         </a>
                       </div>
                       <div className='py-5 flex justify-center'>
-                        <a target='_blank' href='https://github.com/jasim2003ahamed/Blog-app' >
+                        <a target='_blank' rel='noreferrer' href='https://github.com/jasim2003ahamed/Blog-app' >
+                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
+                        </a>
+                      </div>
+                  </div>
+
+                </div>
+
+                <div  className='relative shadow-lg'data-aos='fade-up' >
+                    <img src={EcomImg} className='h-[200px] w-[500px] rounded-md ' alt='Logistics Project' />
+                  <div className='project-desc' >
+                    <p className='text-center text-white py-5 px-3'><b>Logistics Company Website (Freelance)</b><br/>Built a responsive logistics company website using React and Tailwind CSS. Developed reusable UI components and optimized page performance. Improved user experience with smooth scrolling and interactive design.</p>
+                  </div>
+
+                <div className='flex justify-center gap-5'>
+                      <div className='py-5  flex justify-center'>
+                        <a target='_blank' rel='noreferrer' href='https://dealuniversal.com/'>
+                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
+                        </a>
+                      </div>
+                      <div className='py-5 flex justify-center'>
+                        <a target='_blank' rel='noreferrer' href='https://github.com/jasim2003ahamed'>
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
                         </a>
                       </div>
@@ -99,61 +119,19 @@ function Projects() {
                 </div>
 
                 <div  className='relative shadow-lg'data-aos='fade-right' >
-                    <img src={EcomImg} className='h-[200px] w-[500px] rounded-md ' />
+                    <img src={TodoImg} className='h-[200px] w-[500px] rounded-md ' alt='Chat App Project' />
                   <div className='project-desc' >
-                    <p className='text-center text-white py-5'>A simple and responsive eCommerce web application built using React.js and Tailwind CSS. Users can browse products (like phones and laptops), add them to a shopping cart.</p>
+                    <p className='text-center text-white py-5 px-3'><b>Real-Time Chat Application (MERN + Socket.io)</b><br/>Built a real-time chat app with live messaging, typing indicators, and user presence. Implemented JWT-based authentication for secure communication. Designed scalable backend APIs using Node.js and Express.</p>
                   </div>
 
                 <div className='flex justify-center gap-5'>
                       <div className='py-5  flex justify-center'>
-                        <a target='_blank' href='https://jasim2003ahamed.github.io/E-comm/'>
+                        <a target='_blank' rel='noreferrer' href='https://frontend-u50c.onrender.com/' >
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
                         </a>
                       </div>
                       <div className='py-5 flex justify-center'>
-                        <a target='_blank' href='https://github.com/jasim2003ahamed/E-comm'>
-                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
-                        </a>
-                      </div>
-                  </div>
-
-                </div>
-
-                <div  className='relative shadow-lg'data-aos='fade-left' >
-                    <img src={TodoImg} className='h-[200px] w-[500px] rounded-md ' />
-                  <div className='project-desc' >
-                    <p className='text-center text-white py-5'>Developed a responsive to-do list web application using ReactJS for front-end functionality and Tailwind CSS for styling.</p>
-                  </div>
-
-                <div className='flex justify-center gap-5'>
-                      <div className='py-5  flex justify-center'>
-                        <a target='_blank' href='https://jasim2003ahamed.github.io/todo-list/' >
-                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
-                        </a>
-                      </div>
-                      <div className='py-5 flex justify-center'>
-                        <a target='_blank' href='https://github.com/jasim2003ahamed/todo-list' >
-                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
-                        </a>
-                      </div>
-                  </div>
-
-                </div>
-
-                <div  className='relative shadow-lg'data-aos='fade-right' >
-                    <img src={Guess} className='h-[200px] w-[500px] rounded-md ' />
-                  <div className='project-desc' >
-                    <p className='text-center text-white py-5'>Guess the Number Game - React.js Random Number Generation: The app generates a random number between 1 and 10 when the game starts.User Input: Users can input their guesses.</p>
-                  </div>
-
-                <div className='flex justify-center gap-5'>
-                      <div className='py-5  flex justify-center'>
-                        <a target='_blank' href='https://jasim2003ahamed.github.io/Reactjs/'>
-                          <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>View</button>
-                        </a>
-                      </div>
-                      <div className='py-5 flex justify-center'>
-                        <a target='_blank' href='https://github.com/jasim2003ahamed/Reactjs'>
+                        <a target='_blank' rel='noreferrer' href='https://github.com/jasim2003ahamed/chat-app'>
                           <button className='border-2 rounded-3xl w-24 h-10 bg-primary text-white '>Code</button>
                         </a>
                       </div>
