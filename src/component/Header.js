@@ -93,6 +93,7 @@ const Header = () => {
               <li><a href='#Education' className='font-semibold tracking-wide nav text-white'>Educations</a></li>
               <li><a href='#tools' className='font-semibold tracking-wide nav text-white'>Skills</a></li>
               <li><a href='#Projects' className='font-semibold tracking-wide nav text-white'>Projects</a></li>
+              <li><a href='#Clients' className='font-semibold tracking-wide nav text-white'>Clients</a></li>
               <li><a href='#Contact' className='font-semibold tracking-wide nav text-white'>Contact</a></li>
             </ul>
         </nav>
@@ -115,6 +116,7 @@ const Header = () => {
               <li><a href='#Education' className='font-semibold tracking-wide  text-white'>Educations</a></li>
               <li><a href='#tools' className='font-semibold tracking-wide  text-white'>Skills</a></li>
               <li><a href='#Projects' className='font-semibold tracking-wide nav text-white'>Projects</a></li>
+              <li><a href='#Clients' className='font-semibold tracking-wide text-white'>Clients</a></li>
               <li><a href='#Contact' className='font-semibold tracking-wide  text-white'>Contact</a></li>
           </ul>
         </nav>

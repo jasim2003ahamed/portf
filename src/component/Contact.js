@@ -20,7 +20,6 @@ function Contact() {
                       <a target='_blank' href="https://wa.me/917639294694?text=Hi%2C%20I%20want%20to%20connect%20with%20you!" className='pr-4 text-slate-300 hover:text-black'><FaWhatsapp size={40}/></a>
                       <a target='_blank' href='https://github.com/jasim2003ahamed' className='pr-4 text-slate-300 hover:text-black'>< FiGithub  size={40}/></a>
                       <a target='_blank' href='https://www.linkedin.com/in/ahamed-z-918996260' className='pr-4 text-slate-300 hover:text-black'><FiLinkedin  size={40}/></a>
-                      <a href='' className='pr-4 text-slate-300 hover:text-black'><FaInstagram  size={40}/></a>
                     </div>
 
 

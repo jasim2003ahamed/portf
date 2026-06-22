@@ -3,6 +3,7 @@ import Header from './component/Header';
 import Hero from './component/Hero';
 import About from './component/About';
 import Projects from './component/Projects';
+import Clients from './component/Clients';
 import Resume from './component/Resume';
 import Contact from './component/Contact';
 import Education from './component/Education';
@@ -17,6 +18,7 @@ function App() {
         <Education />
         <Languages />
         <Projects />
+        <Clients />
         <Resume />
         <Contact />
     </div>
