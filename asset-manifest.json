@@ -1,7 +1,11 @@
 {
   "files": {
-    "main.css": "/portf/static/css/main.569173a5.css",
-    "main.js": "/portf/static/js/main.5b23e570.js",
+    "main.css": "/portf/static/css/main.b390806c.css",
+    "main.js": "/portf/static/js/main.24071f4f.js",
+    "static/media/corewarrior.png": "/portf/static/media/corewarrior.f40ba265fad824f43c75.png",
+    "static/media/t2f_marine.png": "/portf/static/media/t2f_marine.fbda4a27a91ee7c98617.png",
+    "static/media/deal_universal.png": "/portf/static/media/deal_universal.a1692a57d2d940e7d14c.png",
+    "static/media/smartway.png": "/portf/static/media/smartway.33f24f34802f4f1407dd.png",
     "static/media/about.gif": "/portf/static/media/about.e5c19b68fc0f40e2228a.gif",
     "static/media/coding.png": "/portf/static/media/coding.edc9b59358ab3a3e4a4e.png",
     "static/media/resume.jpg": "/portf/static/media/resume.90dda3c86fca2e08aa1d.jpg",
@@ -9,11 +13,11 @@
     "static/media/ecom.jpg": "/portf/static/media/ecom.c3fb3534fc1f73d9c52c.jpg",
     "static/media/blog.jpg": "/portf/static/media/blog.27e77d11f723026a2278.jpg",
     "index.html": "/portf/index.html",
-    "main.569173a5.css.map": "/portf/static/css/main.569173a5.css.map",
-    "main.5b23e570.js.map": "/portf/static/js/main.5b23e570.js.map"
+    "main.b390806c.css.map": "/portf/static/css/main.b390806c.css.map",
+    "main.24071f4f.js.map": "/portf/static/js/main.24071f4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.569173a5.css",
-    "static/js/main.5b23e570.js"
+    "static/css/main.b390806c.css",
+    "static/js/main.24071f4f.js"
   ]
 }
